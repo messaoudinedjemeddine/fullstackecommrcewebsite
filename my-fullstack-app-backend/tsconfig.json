@@ -1,0 +1,14 @@
+// C:\Users\nedje\Desktop\loudim\my-fullstack-app-backend\tsconfig.json
+{
+  "compilerOptions": {
+    "target": "es2022", // or "es2018", or "esnext"
+    "module": "commonjs",
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "outDir": "./dist", // Output directory for compiled JavaScript
+    "rootDir": "./"      // Root directory of your source files
+  },
+  "include": ["./server.ts", "./prisma/seed.js", "./global.d.ts"] // Include seed.js here if you convert it to TS later
+}
